@@ -1,11 +1,10 @@
 package ru.mirea.inbo0319;
 import java.lang.*;
-
 public class Dog {
     private String name;
     private int age;
 
-    public Dog(String n, int a){
+    public Dog (String n, int a){
         name = n;
         age = a;
     }
@@ -13,7 +12,7 @@ public class Dog {
         name = n;
         age = 0;
     }
-    public Dog() {
+    public Dog(){
         name = "Pup";
         age = 0;
     }
@@ -26,7 +25,7 @@ public class Dog {
     public String getName(String name){
         return name;
     }
-    public int getAge() {
+    public int getAge(){
         return age;
     }
     public String toString(){
@@ -36,7 +35,3 @@ public class Dog {
         System.out.println(name+"'s age in human years is "+age*7+" years");
     }
 }
-
-
-
-

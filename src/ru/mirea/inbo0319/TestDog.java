@@ -1,3 +1,4 @@
+package ru.mirea.inbo0319;
 import java.lang.*;
 public class TestDog {
     public static void main(String[] args) {
